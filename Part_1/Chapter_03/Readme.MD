@@ -1,8 +1,8 @@
 GNS3 Windows Installation
 
-https://docs.gns3.com/docs/getting-started/installation/windows
-
 https://www.gns3.com/software
+
+https://docs.gns3.com/docs/getting-started/installation/windows
 
 https://www.gns3.com/software/download
 
