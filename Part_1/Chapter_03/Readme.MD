@@ -16,3 +16,5 @@ https://www.vmware.com/nl/products/workstation-player/workstation-player-evaluat
 
 https://gns3.com/software/download-vm
 
+https://www.putty.org/
+
