@@ -1,5 +1,6 @@
 GNS3 Linux Installation
 
+
 Ubuntu-based distributions (64-bit only) Example:
 
 sudo apt update
@@ -18,4 +19,5 @@ sudo chmod 755 /usr/bin/ubridge
 More Information:
 
 https://docs.gns3.com/docs/getting-started/installation/linux
+
 
