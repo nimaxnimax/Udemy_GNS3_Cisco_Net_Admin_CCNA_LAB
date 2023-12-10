@@ -36,3 +36,5 @@ Download Putty and install:
 
 https://www.putty.org/
 
+https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.79-installer.msi
+
