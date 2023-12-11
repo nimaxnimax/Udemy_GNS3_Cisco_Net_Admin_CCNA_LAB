@@ -2,6 +2,8 @@ How to Download Cisco IOS VIRL Images and Setup GNS3
 
 https://docs.gns3.com/docs/emulators/cisco-ios-images-for-dynamips
 
+https://docs.gns3.com/docs/troubleshooting-faq/where-do-i-get-ios-images/
+
 https://learningnetwork.cisco.com/s/virl
 
 https://learningnetwork.cisco.com/s/article/iosvl2-more-info-updated-10-2-15-x
