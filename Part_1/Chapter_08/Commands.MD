@@ -2,7 +2,7 @@ Commands:
 
 
 ****************************************************************************************************
-End Device - GNS3 Commands >>
+End Device - GNS3 Virtual PC - GNS3 Commands >>
 
 show
 
