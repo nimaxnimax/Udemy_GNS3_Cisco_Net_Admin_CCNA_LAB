@@ -451,6 +451,12 @@ show int stats
 conf t
 ip routing
 do show ip route
+int fa1/0
+no switchport
+ip addr 10.1.1.1 255.255.255.0
+no shutdown
+do show ip int bri
+do show ip route
 ```
 
 **********
