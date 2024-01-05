@@ -208,24 +208,34 @@ exit
 Command >>
 ```bash
 interface vlan 11
-ip address 192.168.11.251 255.255.255.0
+ip address 192.168.11.254 255.255.255.0
 no shutdown
 exit
 vlan 11
 name Sales
 exit
-```
-**********
-
-Command >>
-```bash
+interface vlan 12
+ip address 192.168.12.254 255.255.255.0
+no shutdown
+exit
+vlan 12
+name Marketing
+exit
 interface vlan 13
-ip address 192.168.13.251 255.255.255.0
+ip address 192.168.13.254 255.255.255.0
 no shutdown
 exit
 vlan 13
-name Marketing
+name Accounting
 exit
+interface vlan 14
+ip address 192.168.14.254 255.255.255.0
+no shutdown
+exit
+vlan 14
+name Engineering
+exit
+
 ```
 **********
 
@@ -423,6 +433,24 @@ traceroute 192.168.11.254
 traceroute 192.168.13.1
 traceroute 192.168.13.254
 ```
+**********
+
+Command >>
+```bash
+show run | sec line
+show int desc
+show ver
+dir
+conf t
+cdp run
+cdp advertise-v2
+cdp timer 5
+do show cdp neighbors detail
+exit
+show int stats
+
+```
+
 **********
 
 PC Command >>
