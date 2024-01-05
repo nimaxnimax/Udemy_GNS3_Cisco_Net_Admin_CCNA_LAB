@@ -448,7 +448,9 @@ cdp timer 5
 do show cdp neighbors detail
 exit
 show int stats
-
+conf t
+ip routing
+do show ip route
 ```
 
 **********
