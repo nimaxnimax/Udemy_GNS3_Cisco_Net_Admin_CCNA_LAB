@@ -457,6 +457,9 @@ ip addr 10.1.1.1 255.255.255.0
 no shutdown
 do show ip int bri
 do show ip route
+ssh -l cisco 10.1.1.1
+show ssh
+show users
 ```
 
 **********
