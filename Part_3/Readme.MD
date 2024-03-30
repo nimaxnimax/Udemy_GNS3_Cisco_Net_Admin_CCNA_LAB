@@ -499,6 +499,33 @@ When troubleshooting STP, pay attention to the root bridge election, port roles,
 
 **********
 
+L2, Access, Trunk and STP/RSTP Command >>
+```bash
+show int status
+show int trunk
+show ip int bri
+show run interface fax/y
+show spa vlan 1
+show spa vlan 1 bri
+show spa summary
+```
+
+L2, Access, Trunk and STP/RSTP Config Command >>
+```bash
+int fax/y
+span mode pvst
+span mode rapid-pvst
+switchport access vlan X
+switchport mode access
+switchport mode trunk
+span cost 1
+span cost 2000
+span portfast
+span bpdufilter enable
+```
+
+**********
+
 Command >>
 ```bash
 enable
